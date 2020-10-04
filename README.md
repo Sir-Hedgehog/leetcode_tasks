@@ -2,7 +2,7 @@
 [![codecov](https://codecov.io/gh/Sir-Hedgehog/leetcode_tasks/branch/main/graph/badge.svg)](https://codecov.io/gh/Sir-Hedgehog/leetcode_tasks)
 
 # leetcode_tasks
-This repository presents my level of task decisions from programming platform [Leetcode](https://leetcode.com/ "leetcode").
+This repository presents my level of task decisions from programming platform [leetcode](https://leetcode.com/ "leetcode").
 
 ## Logo
 ![Logo](https://miro.medium.com/max/802/1*Lur9rrJITsFRnuIYURYkSg.jpeg)
