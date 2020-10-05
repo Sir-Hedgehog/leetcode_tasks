@@ -15,11 +15,19 @@ import java.util.Arrays;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
- * @version 1.0
- * @since 28.09.2020
+ * @version 2.0
+ * @since 05.10.2020
  */
 
 public class RotateArray {
+
+    /**
+     * Метод перемещает указанное количество элементов с конца массива в его начало
+     * @param numbers - массив
+     * @param quantity - количество элементов для рокировки
+     * @return - обновленный массив
+     */
+
     public int[] rotate(int[] numbers, int quantity) {
         int temp;
         while (quantity > 0) {

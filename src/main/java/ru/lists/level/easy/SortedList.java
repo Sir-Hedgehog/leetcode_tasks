@@ -11,11 +11,19 @@ package ru.lists.level.easy;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
- * @version 1.0
- * @since 02.10.2020
+ * @version 2.0
+ * @since 05.10.2020
  */
 
 public class SortedList {
+
+    /**
+     * Метод формирует из двух сортированных связанных списков один
+     * @param node1 - элемент первого связанного списка
+     * @param node2 - элемент второго связанного списка
+     * @return - сортированный связанный список
+     */
+
     public ListNode mergeTwoLists(ListNode node1, ListNode node2) {
         ListNode current = new ListNode();
         ListNode head = current;

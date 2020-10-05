@@ -16,11 +16,18 @@ package ru.complexity.level.easy;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
- * @version 1.0
- * @since 02.10.2020
+ * @version 2.0
+ * @since 05.10.2020
  */
 
 public class Complement {
+
+    /**
+     * Метод меняет в обратную сторону двоичное преставления нулей и единиц числа в двоичной виде и преобразует его обратно в десятичное число
+     * @param number - число
+     * @return - обновленное число
+     */
+
     public int bitwiseComplement(int number) {
         String binaryString = Integer.toBinaryString(number);
         char[] reverseChars = new char[binaryString.length()];
@@ -33,12 +40,5 @@ public class Complement {
             }
         }
         return Integer.parseInt(new String(reverseChars), 2);
-    }
-
-    public static void main(String[] args) {
-        Complement complement = new Complement();
-        System.out.println(complement.bitwiseComplement(19));
-        System.out.println(complement.bitwiseComplement(9));
-        System.out.println(complement.bitwiseComplement(258));
     }
 }

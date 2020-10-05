@@ -1,5 +1,11 @@
 package ru.lists.level.easy;
 
+/**
+ * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
+ * @version 1.0
+ * @since 02.10.2020
+ */
+
 public class ListNode {
     public int value;
     public ListNode next;

@@ -1,4 +1,4 @@
-package ru.lists;
+package ru.lists.level.easy;
 
 import org.junit.Test;
 import ru.lists.level.easy.ListNode;

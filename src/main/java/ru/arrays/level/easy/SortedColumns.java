@@ -13,11 +13,18 @@ package ru.arrays.level.easy;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
- * @version 1.0
- * @since 29.09.2020
+ * @version 2.0
+ * @since 05.10.2020
  */
 
 public class SortedColumns {
+
+    /**
+     * Метод находит число колонок массива, которые не соответствуют убыванию символов по алфавиту
+     * @param array - массив
+     * @return - число колонок массива, которые не соответствуют убыванию символов по алфавиту
+     */
+
     public int minDeletionSize(String[] array) {
         int result = 0;
         for (int outer = 0; outer < array[0].length(); outer++) {

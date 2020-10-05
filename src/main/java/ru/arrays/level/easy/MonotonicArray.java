@@ -11,14 +11,27 @@ package ru.arrays.level.easy;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
- * @version 1.0
- * @since 28.09.2020
+ * @version 2.0
+ * @since 05.10.2020
  */
 
 public class MonotonicArray {
+
+    /**
+     * Метод проверяет массив на монотонность убывания или возрастания элементов
+     * @param array - массив
+     * @return - монотонный массив или нет
+     */
+
     public boolean isMonotonic(int[] array) {
         return checkLow(array) || checkUp(array);
     }
+
+    /**
+     * Метод проверяет массив на монотонность по возрастанию
+     * @param array - массив
+     * @return - монотонный массив или нет
+     */
 
     private boolean checkUp(int[] array) {
         boolean result = true;
@@ -33,6 +46,12 @@ public class MonotonicArray {
         }
         return result;
     }
+
+    /**
+     * Метод проверяет массив на монотонность по убыванию
+     * @param array - массив
+     * @return - монотонный массив или нет
+     */
 
     private boolean checkLow(int[] array) {
         boolean result = true;

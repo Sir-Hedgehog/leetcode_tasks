@@ -1,4 +1,4 @@
-package ru.complexity;
+package ru.complexity.level.easy;
 
 import org.junit.Test;
 import ru.complexity.level.easy.Complement;
