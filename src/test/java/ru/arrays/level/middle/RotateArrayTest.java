@@ -1,4 +1,4 @@
-package ru.arrays.level.easy;
+package ru.arrays.level.middle;
 
 import org.junit.Test;
 import static org.hamcrest.core.Is.is;

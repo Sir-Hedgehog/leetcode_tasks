@@ -1,6 +1,4 @@
-package ru.arrays.level.easy;
-
-import java.util.Arrays;
+package ru.arrays.level.middle;
 
 /*
 
