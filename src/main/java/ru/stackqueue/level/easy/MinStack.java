@@ -1,4 +1,4 @@
-package ru.stacks.level.easy;
+package ru.stackqueue.level.easy;
 
 import java.util.*;
 

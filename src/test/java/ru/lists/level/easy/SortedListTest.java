@@ -1,8 +1,6 @@
 package ru.lists.level.easy;
 
 import org.junit.Test;
-import ru.lists.level.easy.ListNode;
-import ru.lists.level.easy.SortedList;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 

@@ -1,7 +1,6 @@
-package ru.stack.level.easy;
+package ru.stackqueue.level.easy;
 
 import org.junit.Test;
-import ru.stacks.level.easy.MinStack;
 import static org.hamcrest.core.Is.is;
 import static org.junit.Assert.assertThat;
 
