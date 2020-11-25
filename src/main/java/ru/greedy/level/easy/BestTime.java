@@ -20,13 +20,24 @@ import java.util.stream.Collectors;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
- * @version 1.0
+ * @version 2.0
  * @since 25.11.2020
  */
 
 public class BestTime {
 
     public int getMaxProfit(int[] prices) {
+        if(prices == null || prices.length < 2) return 0;
+        int profit = 0;
+        for(int i = 1; i < prices.length; i++){
+            if(prices[i-1] < prices[i]){
+                profit += prices[i] - prices[i-1];
+            }
+        }
+        return profit;
+    }
+
+    public int getMaxProfit2(int[] prices) {
         int result = 0;
         LinkedList<Integer> list;
         if (prices.length > 1) {
