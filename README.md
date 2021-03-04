@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.com/Sir-Hedgehog/leetcode_tasks.svg?branch=main)](https://travis-ci.org/Sir-Hedgehog/leetcode_tasks)
+[![Build Status](https://travis-ci.com/Sir-Hedgehog/leetcode_tasks.svg?branch=main)](https://travis-ci.com/Sir-Hedgehog/leetcode_tasks)
 [![codecov](https://codecov.io/gh/Sir-Hedgehog/leetcode_tasks/branch/main/graph/badge.svg)](https://codecov.io/gh/Sir-Hedgehog/leetcode_tasks)
 
 # leetcode_tasks
