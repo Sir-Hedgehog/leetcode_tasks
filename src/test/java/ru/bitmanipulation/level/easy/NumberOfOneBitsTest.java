@@ -1,4 +1,4 @@
-package ru.bit_manipulation.level.easy;
+package ru.bitmanipulation.level.easy;
 
 import org.junit.Test;
 
