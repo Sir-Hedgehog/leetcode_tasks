@@ -3,8 +3,7 @@ package ru.graphs.level.easy;
 import org.junit.Test;
 
 import java.util.List;
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertEquals;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
@@ -23,7 +22,7 @@ public class PathTest {
                         List.of("Milan", "Paris")
                 )
         );
-        assertThat(destination, is("Paris"));
+        assertEquals(destination, "Paris");
     }
 
     @Test
@@ -36,6 +35,6 @@ public class PathTest {
                         List.of("London", "New York")
                 )
         );
-        assertThat(destination, is("Kiev"));
+        assertEquals(destination, "Kiev");
     }
 }

@@ -1,4 +1,4 @@
-package ru.bitmanipulation.level.easy;
+package ru.bit_manipulation.level.easy;
 
 /*
 

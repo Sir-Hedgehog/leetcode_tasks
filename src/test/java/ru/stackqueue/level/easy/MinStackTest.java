@@ -1,8 +1,7 @@
 package ru.stackqueue.level.easy;
 
 import org.junit.Test;
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertEquals;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
@@ -17,7 +16,7 @@ public class MinStackTest {
         stack.push(1);
         stack.push(2);
         stack.push(3);
-        assertThat(stack.getMin(), is(1));
+        assertEquals(stack.getMin(), 1);
     }
 
     @Test
@@ -27,7 +26,7 @@ public class MinStackTest {
         stack.push(2);
         stack.push(1);
         stack.pop();
-        assertThat(stack.getMin(), is(2));
+        assertEquals(stack.getMin(), 2);
     }
 
     @Test
@@ -36,6 +35,6 @@ public class MinStackTest {
         stack.push(1);
         stack.push(2);
         stack.push(3);
-        assertThat(stack.top(), is(3));
+        assertEquals(stack.top(), 3);
     }
 }

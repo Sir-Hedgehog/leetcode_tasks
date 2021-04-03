@@ -1,9 +1,7 @@
 package ru.strings.level.easy;
 
 import org.junit.Test;
-
-import static org.hamcrest.core.Is.is;
-import static org.junit.Assert.assertThat;
+import static org.junit.Assert.assertEquals;
 
 public class CountAndSayingTest {
 
@@ -11,27 +9,27 @@ public class CountAndSayingTest {
     public void whenCountAndSayNumberOne() {
         CountAndSaying countAndSaying = new CountAndSaying();
         String result = countAndSaying.countAndSay(1);
-        assertThat(result, is("1"));
+        assertEquals(result, "1");
     }
 
     @Test
     public void whenCountAndSayNumberThree() {
         CountAndSaying countAndSaying = new CountAndSaying();
         String result = countAndSaying.countAndSay(3);
-        assertThat(result, is("21"));
+        assertEquals(result, "21");
     }
 
     @Test
     public void whenCountAndSayNumberFive() {
         CountAndSaying countAndSaying = new CountAndSaying();
         String result = countAndSaying.countAndSay(5);
-        assertThat(result, is("111221"));
+        assertEquals(result, "111221");
     }
 
     @Test
     public void whenCountAndSayNumberSeven() {
         CountAndSaying countAndSaying = new CountAndSaying();
         String result = countAndSaying.countAndSay(7);
-        assertThat(result, is("13112221"));
+        assertEquals(result, "13112221");
     }
 }
