@@ -10,8 +10,8 @@ package ru.integers;
 
 /**
  * @author Sir-Hedgehog (mailto:quaresma_08@mail.ru)
- * @version 1.0
- * @since 11.02.2022
+ * @version 1.1
+ * @since 14.02.2022
  */
 public class Palindrome {
 
